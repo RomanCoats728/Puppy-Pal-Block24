@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(12, 1, 1);
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pupCard3 {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  background-color: rgb(2, 106, 2);
+  margin-top: 80px;
+}
+h1 {
+  color: black;
+}
+.pupCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  display: inline-block;
+  border: 9px;
+  border-color: black;
+  background-color: rgb(138, 3, 3);
+  padding: 20px;
+  font-size: 20px;
+  cursor: grab;
+}
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#Background {
+}
